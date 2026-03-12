@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position-x: center;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 header {
