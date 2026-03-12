@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Signika:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Chá de Panela - Lista de Presentes</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>🥂 Chá de Panela Mavi e Matheus 🥂</h1>
+    </header>
+
+    <section>
+      <img src="mama.jpg" class="imagem-topo" />
+      <h2>Lista de Presentes</h2>
+
+      <div id="listaPresentes" class="grid"></div>
+    </section>
+
+    <section class="pix-area">
+      <p>💝 Contribua via Pix (não é obrigatório) 💝</p>
+
+      <button onclick="copiarPix(this)" class="botao-pix">
+        Contribuir via Pix
+      </button>
+
+      <p id="mensagemPix" class="mensagem-pix"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

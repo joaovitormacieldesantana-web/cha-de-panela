@@ -1,0 +1,146 @@
+body {
+  font-family: "Lora", serif;
+  margin: 0;
+  background: #f6f6f6;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/736x/76/e9/af/76e9af50b3cf27173b852f611de83422.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+header {
+  color: rgb(7, 0, 0);
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 20;
+}
+
+h2 {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4fda6;
+  text-shadow: 0 5px 10px #000000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  font-family: "Signik", sans-serif;
+  background-image: url("zeca.avif");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 16px;
+}
+
+button {
+  background: rgb(255, 254, 253);
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 0%);
+  border: 0.5px solid rgb(rgb(163, 76, 4), rgb(128, 73, 0), rgb(105, 60, 1));
+  padding: 15px 35px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgb(107, 101, 101);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  border-color: white;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px bisque;
+  border: 1px solid rgb(rgb(163, 76, 4), rgb(128, 73, 0), rgb(105, 60, 1));
+  border-color: rgb(rgb(163, 76, 4), rgb(128, 73, 0), rgb(105, 60, 1));
+  background-color: rgb(230, 223, 223);
+  color: #524e4e;
+}
+
+.reservado {
+  background: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+.pix-area {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.botao-pix {
+  background: #ffffff;
+
+  color: black;
+
+  border: none;
+
+  padding: 12px 25px;
+
+  font-size: 16px;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.botao-pix:hover {
+  background: #91e678;
+}
+
+.mensagem-pix {
+  margin-top: 10px;
+
+  font-weight: bold;
+
+  color: #ffffff;
+}
+.imagem-topo {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+
+  display: block;
+  margin: 30px auto;
+
+  clip-path: path(
+    50% 90%,
+    90% 55%,
+    100% 35%,
+    90% 15%,
+    70% 5%,
+    50% 20%,
+    30% 5%,
+    10% 15%,
+    0% 35%,
+    10% 55%
+  );
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
